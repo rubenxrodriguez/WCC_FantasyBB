@@ -7,7 +7,7 @@ st.set_page_config(page_title="User Team Matchups", page_icon="🗓️")
 st.title("🗓️ Fantasy League Matchups & Scoreboard")
 
 # --- Load fantasy stats ---
-fantasystats = pd.read_csv("data/fantasy/fantasy_stats_latest.csv")
+fantasystats = pd.read_csv("WCC_FantasyBB/data/fantasy/fantasy_stats_latest.csv")
 
 # --- Setup base teams from fantasy_stats ---
 user_teams = fantasystats['userteam'].unique().tolist()
