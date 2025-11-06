@@ -4,10 +4,10 @@ from datetime import date,timedelta
 import os
 
 # --- 0️⃣ Paths ---
-DRAFT_PATH = "data/Draft Board Updated.csv"
-RESULTS_PATH = "data/draft_results.csv"
-GAMELOG_PATH = "Gamelog/gamelog.csv"
-OUTPUT_DIR = "data/fantasy/"
+DRAFT_PATH = "WCC_FantasyBB/data/Draft Board Updated.csv"
+RESULTS_PATH = "WCC_FantasyBB/data/draft_results.csv"
+GAMELOG_PATH = "WCC_FantasyBB/Gamelog/gamelog.csv"
+OUTPUT_DIR = "WCC_FantasyBB/data/fantasy/"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # --- 1️⃣ Load core sources ---
