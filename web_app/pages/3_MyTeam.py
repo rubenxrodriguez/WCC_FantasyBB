@@ -8,7 +8,7 @@ st.title("🧍 My Team Roster")
 # --- Load Data ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/fantasy/fantasy_stats_latest.csv")
+    df = pd.read_csv("WCC_FantasyBB/data/fantasy/fantasy_stats_latest.csv")
     teams = df["userteam"].unique().tolist()
     return df, teams
 
