@@ -9,7 +9,7 @@ st.title("📅 Player Game Logs")
 # --- Load Data ---
 @st.cache_data
 def load_data():
-    fantasy_stats = pd.read_csv("data/fantasy/fantasy_stats_latest.csv")
+    fantasy_stats = pd.read_csv("WCC_FantasyBB/data/fantasy/fantasy_stats_latest.csv")
     gamelog = pd.read_csv("Gamelog/gamelog.csv")
     return fantasy_stats, gamelog
 
