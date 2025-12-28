@@ -9,7 +9,7 @@ st.title("🏀 WCC Analytics Dashboard")
 
 # --- Load conference player list ---
 
-all_players = pd.read_csv("data/WCC_Fantasy_1105/data/draft_results.csv")
+all_players = pd.read_csv("WCC_Fantasy_1105/data/draft_results.csv")
 
 # --- Section 1: Filter by Team ---
 
